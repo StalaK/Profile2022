@@ -16,8 +16,8 @@ import moment from 'moment'
             </div>
         </div>
         <div class="blog-controls">
-            <span class="previous-page" v-on:click="previousPage" v-if="currentPage > 1">▶ Newer</span>
             <span class="next-page" v-on:click="nextPage" v-if="currentPage < pageCount">◀ Older</span>
+            <span class="previous-page" v-on:click="previousPage" v-if="currentPage > 1">Newer ▶</span>
         </div>
     </div>
 </template>
@@ -97,12 +97,18 @@ export default {
     width: 50%;
     text-align: right;
     cursor: pointer;
-    
+    display: inline-block;
+    position: relative;
+    text-align: left;
 }
+
 .previous-page {
     width: 50%;
     text-align: left;
     cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-align: right;
 }
 
 </style>

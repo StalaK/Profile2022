@@ -259,6 +259,12 @@ li {
     padding-right: 0.75rem;
 }
 
+@media screen and (max-width: 950px) {
+    .card h1 {
+        font-size: 2rem;
+    }
+}
+
 @media screen and (max-width: 775px) {
     .content {
         display: grid;
@@ -267,18 +273,6 @@ li {
     }
 
     .card {
-        height: 10rem;
-        border-radius: 1rem;
-        cursor: pointer;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: aquamarine;
-        grid-column: span 2;
-        box-shadow: 0.7rem 0.7rem 0rem black;
-        border: 4px solid black;
-        gap: 2rem;
         width: 65vw;
     }
 
