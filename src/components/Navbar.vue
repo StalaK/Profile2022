@@ -10,20 +10,24 @@ gsap.registerPlugin(Flip);
 <template>
     <div>
         <nav>
-            <div id="title">Josh Hughes</div>
-            <ul class="nav-links">
+            <div id="title" v-on:click="showHideMobileMenu">
+                Josh Hughes
+                <span class="mobile-menu">[ menu ]</span>
+            </div>
+            
+            <ul class="nav-links" v-bind:style="{ display: getDisplayStatus }">
                 <div class="nav-item">
-                    <li><router-link to="/">Blog</router-link></li>
+                    <li><router-link to="/" v-on:click="showHideMobileMenu">Blog</router-link></li>
                     <div class="active-nav"></div>
                 </div>
                     <div class="nav-item">
-                    <li><router-link to="/about">About</router-link></li>
+                    <li><router-link to="/about" v-on:click="showHideMobileMenu">About</router-link></li>
                 </div>
                     <div class="nav-item">
-                    <li><router-link to="/portfolio">Portfolio</router-link></li>
+                    <li><router-link to="/portfolio" v-on:click="showHideMobileMenu">Portfolio</router-link></li>
                 </div>
                     <div class="nav-item">
-                    <li><router-link to="/contact">Contact</router-link></li>
+                    <li><router-link to="/contact" v-on:click="showHideMobileMenu">Contact</router-link></li>
                 </div>
             </ul>
         </nav>
@@ -33,6 +37,16 @@ gsap.registerPlugin(Flip);
 <script>
 
 export default {
+    data() {
+        return {
+            mobileMenuDisplay: 'flex'
+        }
+    },
+    computed: {
+        getDisplayStatus: function() {
+            return this.mobileMenuDisplay;
+        }
+    },
     mounted: function () {
         const links = document.querySelectorAll(".nav-item a");
         const activeNav = document.querySelector(".active-nav");
@@ -56,6 +70,14 @@ export default {
                 });
             });
         });
+
+        this.mobileMenuDisplay = document.querySelector(".nav-links").display;
+    },
+    methods: {
+        showHideMobileMenu: function() {
+            if (screen.width <= 775)
+            this.mobileMenuDisplay = (this.mobileMenuDisplay ?? "none") === "none" ? "flex" : "none";
+        },
     }
 }
 
@@ -104,6 +126,33 @@ nav {
     left: 0;
     bottom: -8px;
     width: 100%;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 775px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        display: none;
+    }
+
+    #title {
+        cursor: pointer;
+    }
+
+    .mobile-menu {
+        display: inline-block;
+        cursor: pointer;
+        font-size: x-small;
+        color: black;
+        font-family: unset;
+    }
 }
 
 </style>

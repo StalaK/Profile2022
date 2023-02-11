@@ -181,6 +181,9 @@ export default {
                     ease: "expo.out",
                     absolute: true
                 });
+
+                if (screen.width <= 775)
+                    window.scrollTo(0, 0);
             });
         });
 
@@ -189,7 +192,6 @@ export default {
         cardLinks.forEach((link, index) => {
             link.addEventListener("click", (e) => { e.stopPropagation(); });
         });
-
     }
 }
 
@@ -200,7 +202,6 @@ export default {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 3rem;
-
 }
 
 .card {
@@ -256,6 +257,56 @@ li {
 .github-link h3 {
     transform: translate(0,-100%);
     padding-right: 0.75rem;
+}
+
+@media screen and (max-width: 775px) {
+    .content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+    }
+
+    .card {
+        height: 10rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+        grid-column: span 2;
+        box-shadow: 0.7rem 0.7rem 0rem black;
+        border: 4px solid black;
+        gap: 2rem;
+        width: 65vw;
+    }
+
+    .card.active {
+        grid-column: 1 / span 1;
+        grid-row: 1;
+        order: 0;
+        height: auto;
+        text-align: start;
+    }
+
+    .github-link {
+        display: inline-block;
+        position: relative;
+        text-align: left;
+    }
+
+    .github-link h3 {
+        transform: translate(0, 0);
+        padding-left: 5rem;
+        font-size: small;
+    }
+    .github-text {
+        height: 0px;
+    }
+    .github-link img {
+        transform: translate(0, -85%);
+    }
 }
 
 </style>
