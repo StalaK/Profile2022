@@ -38,7 +38,7 @@
             </div>
 
             <div class="form-group">
-                <button type="submit" class="input-area">Submit</button>
+                <button type="submit" class="input-area submit-button">Submit</button>
             </div>
         </form>
         <div v-else>
@@ -137,5 +137,9 @@ button {
 
 .error {
     color: rgb(135, 28, 9);
+}
+
+.submit-button {
+    margin-bottom: 30px;
 }
 </style>
