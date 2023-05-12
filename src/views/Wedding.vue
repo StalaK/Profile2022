@@ -76,10 +76,49 @@ import WeddingMap from '../components/WeddingMap.vue'
                     <WeddingMap />
                 </div>
                 <div class="info">
+                    <div class="header"><h2>Venue</h2></div>
                     <b>Address:</b> The Priests House, Barden Tower, Skipton, BD23 6AS<br />
                     <b>Date:</b> 21/10/2023<br />
                     <b>Time:</b> 19:00<br />
-                    <b>Website:</b> <a href="https://thepriestshouse.com/" target="_blank">https://thepriestshouse.com/</a>
+                    <b>Website:</b> <a href="https://thepriestshouse.com/" target="_blank">https://thepriestshouse.com/</a><br />
+                    
+                    <div class="header"><h2>Timings</h2></div>
+                    <p>
+                        Exact timings TBC
+                    </p>
+                    
+                    <div class="header"><h2>Photographs</h2></div>
+                    <p>
+                        Our photographer will be taking photos throughout the wedding and reception.<br />
+                        Please relax and enjoy the moment, and we’ll share the lovely images with everyone<br />
+                        after the celebration. We kindly ask that pictures of us are not shared on social<br />
+                        media until we've had a chance to share our own.
+                    </p>
+
+                    <div class="header"><h2>Guests</h2></div>
+                    <p>
+                        Unfortunately, due to space limitations, we simply can't accomodate all<br />
+                        of our lovely guests to bring a guest of their own.<br />
+                        Therefore, we regretfully our guests to please not bring a plus one, <br />
+                        unless they are specifically named on the invitation.
+                    </p>
+                    
+                    <div class="header"><h2>Accommodation Suggestions</h2></div>
+                    <ul>
+                        <li>Rendezvous Hotel - <a href="www.rendezvous-skipton.co.uk/" target="_blank">www.rendezvous-skipton.co.uk/</a></li>
+                        <li>The Coach House (Skipton) - <a href="https://thecoachhouseskipton.com/" target="_blank">thecoachhouseskipton.com/</a></li>
+                        <li>The Woolly Sheep (Skipton) - <a href="https://www.woollysheepinn.co.uk/" target="_blank">www.woollysheepinn.co.uk/</a></li>
+                        <li>The Crescent Inn - <a href="www.thecrescentinn.co.uk/" target="_blank">www.thecrescentinn.co.uk/</a></li>
+                        <li>Howgill Lodge - <a href="www.howgill-lodge.co.uk/" target="_blank">www.howgill-lodge.co.uk/</a></li>
+                        <li>The Linton Laithe - <a href="www.lintonlaithe.co.uk/" target="_blank">www.lintonlaithe.co.uk/</a></li>
+                        <li>The Devonshire Arms - <a href="www.thedevonshirearms.co.uk/" target="_blank">www.thedevonshirearms.co.uk/</a></li>
+                        <li>The Devonshire Fell - <a href="www.devonshirefell.co.uk/" target="_blank">www.devonshirefell.co.uk/</a></li>
+                        <li>Bolton Abbey Cottages - <a href="www.boltonabbey.com/stay-with-us/holiday-cottages/" target="_blank">www.boltonabbey.com/stay-with-us/holiday-cottages/</a></li>
+                        <li>The Bailey (Skipton) - <a href="https://thebaileyskipton.co.uk/" target="_blank">thebaileyskipton.co.uk/</a></li>
+                        <li>Grassington House - <a href="https://www.grassingtonhouse.co.uk/" target="_blank">www.grassingtonhouse.co.uk/</a></li>
+                        <li>The Devonshire (Grassington): <a href="https://www.thedevonshiregrassington.co.uk/" target="_blank">www.thedevonshiregrassington.co.uk/</a></li>
+                        <li>Salt Pot Cottage - <a href="https://www.instagram.com/saltpot_cottage/?hl=en" target="_blank">www.instagram.com/saltpot_cottage/?hl=en</a></li>
+                    </ul>
                 </div>
             </div>
             <RSVP />
