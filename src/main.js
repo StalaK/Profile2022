@@ -2,7 +2,6 @@ import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import './style.css'
 import App from './App.vue'
-import Wedding from './views/Wedding.vue'
 
 const routes = [
     {
@@ -28,7 +27,7 @@ const routes = [
     {
         path: '/wedding',
         name: 'Wedding',
-        component: Wedding,
+        component: () => import('./views/Wedding.vue'),
     },
 ]
 
@@ -40,3 +39,5 @@ const router = new createRouter({
 createApp(App)
     .use(router)
     .mount('#app')
+
+
