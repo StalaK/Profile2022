@@ -141,6 +141,7 @@ export default {
         body.style.backgroundColor = "black";
         body.style.color = "silver";
         body.style.fontFamily = "'Rubik', sans-serif";
+        body.style.margin = 0;
     },
     data() {
         return {
@@ -172,6 +173,7 @@ export default {
 .main-page {
     padding: 0px;
     color: silver;
+    text-align: center;
 }
 
 a {
