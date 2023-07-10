@@ -113,11 +113,6 @@ export default {
 
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:wght@500&display=swap');
-
-h2 {
-    font-family: 'Pacifico', cursive;
-}
 
 .rsvp-form {
     display: block;

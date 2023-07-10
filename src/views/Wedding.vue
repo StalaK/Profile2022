@@ -30,22 +30,31 @@ import WeddingMap from '../components/WeddingMap.vue'
                     
                     <div class="header"><h2>Timings</h2></div>
                     <p>
-                        Exact timings TBC
+                        <ul>
+                            <li>12:30 - Arrival</li>
+                            <li>13:00 - Guests to chapel</li>
+                            <li>13:30 - Wedding Ceremony</li>
+                            <li>14:00 - Post ceremony drinks</li>
+                            <li>15:30 - Speeches & wedding breakfast</li>
+                            <li>19:00 - Evening guests arrive</li>
+                            <li>19:30 - First dance & cake cutting</li>
+                            <li>23:00 - Last orders & departure</li>
+                        </ul>
                     </p>
                     
                     <div class="header"><h2>Photographs</h2></div>
                     <p>
-                        Our photographer will be taking photos throughout the wedding and reception.
-                        Please relax and enjoy the moment, and we’ll share the lovely images with everyone
-                        after the celebration. We kindly ask that pictures of us are not shared on social
+                        Our photographer will be taking photos throughout the wedding and reception.<br />
+                        Please relax and enjoy the moment, and we’ll share the lovely images with everyone<br />
+                        after the celebration. We kindly ask that pictures of us are not shared on social<br />
                         media until we've had a chance to share our own.
                     </p>
 
                     <div class="header"><h2>Guests</h2></div>
                     <p>
-                        Unfortunately, due to space limitations, we simply can't accomodate all
-                        of our lovely guests to bring a guest of their own.
-                        Therefore, we regretfully our guests to please not bring a plus one,
+                        Unfortunately, due to space limitations, we simply can't accomodate all<br />
+                        of our lovely guests to bring a guest of their own.<br />
+                        Therefore, we regretfully our guests to please not bring a plus one, <br />
                         unless they are specifically named on the invitation.
                     </p>
                     
@@ -84,22 +93,26 @@ import WeddingMap from '../components/WeddingMap.vue'
                     
                     <div class="header"><h2>Timings</h2></div>
                     <p>
-                        Exact timings TBC
+                        <ul>
+                            <li>19:00 - Evening guests arrive</li>
+                            <li>19:30 - First dance & cake cutting</li>
+                            <li>23:00 - Last orders & departure</li>
+                        </ul>
                     </p>
                     
                     <div class="header"><h2>Photographs</h2></div>
                     <p>
-                        Our photographer will be taking photos throughout the wedding and reception.
-                        Please relax and enjoy the moment, and we’ll share the lovely images with everyone
-                        after the celebration. We kindly ask that pictures of us are not shared on social
+                        Our photographer will be taking photos throughout the wedding and reception.<br />
+                        Please relax and enjoy the moment, and we’ll share the lovely images with everyone<br />
+                        after the celebration. We kindly ask that pictures of us are not shared on social<br />
                         media until we've had a chance to share our own.
                     </p>
 
                     <div class="header"><h2>Guests</h2></div>
                     <p>
-                        Unfortunately, due to space limitations, we simply can't accomodate all
-                        of our lovely guests to bring a guest of their own.
-                        Therefore, we regretfully our guests to please not bring a plus one, 
+                        Unfortunately, due to space limitations, we simply can't accomodate all<br />
+                        of our lovely guests to bring a guest of their own.<br />
+                        Therefore, we regretfully our guests to please not bring a plus one, <br />
                         unless they are specifically named on the invitation.
                     </p>
                     
@@ -155,11 +168,11 @@ export default {
             if (this.password.toUpperCase() === 'JK2023') {
                 this.invite = 'day';
                 let body = document.getElementsByTagName("body")[0];
-                body.style.background = "linear-gradient(0deg, rgb(0, 0, 9) 0%, rgb(135, 28, 9) 100%)";
+                body.style.background = "linear-gradient(0deg, rgb(0, 0, 9) 0%, rgb(200, 60, 9) 100%)";
             } else if (this.password.toUpperCase() === 'HUGHES2023') {
                 this.invite = 'evening';
                 let body = document.getElementsByTagName("body")[0];
-                body.style.background = "linear-gradient(0deg, rgb(0, 0, 9) 0%, rgb(135, 28, 9) 100%)";
+                body.style.background = "linear-gradient(0deg, rgb(0, 0, 9) 0%, rgb(200, 60, 9) 100%)";
             } else {
                 this.passwordError = true;
             }
@@ -169,15 +182,19 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:wght@500&display=swap');
+
 .main-page {
     padding: 0px;
-    color: silver;
+    color: white;
     text-align: center;
 }
 
 a {
-    color: #a85f0c;
+    color: green;
+}
+
+ul {
+    list-style-type: circle;
 }
 
 .hero {
@@ -185,10 +202,9 @@ a {
     padding: 0px;
     position: absolute;
     height:770px;
-    background: url('../assets/IMAG0152.jpg'), linear-gradient(90deg, rgb(91, 146, 218) 0%, rgb(84, 94, 136) 100%);
+    background-image: url('../assets/IMAG0152.jpg');
     background-position-x: 40%;
     background-position-y: 20%;
-    background-repeat: no-repeat;
     top: 0;
     left: 0;
 }
@@ -199,11 +215,10 @@ a {
     vertical-align: top;
     text-align: start;
     padding-left: 10px;
-    max-width: 820px;
 }
 
 .map {
-    padding-top: 15px;
+    padding-top:15px;
     display: inline-block;
 }
 
@@ -219,17 +234,14 @@ button {
 .title {
     font-size:larger;
     font-weight: bold;
-    font-family: 'Pacifico', cursive;
 }
 
 .header {
-    font-family: 'Pacifico', cursive;
     margin-bottom: 0px !important;
 }
 
 .venue-details {
     height: fit-content;
-    width: fit-content;
 }
 
 .submit-button {
@@ -261,7 +273,7 @@ button {
 
     .main-page {
         padding: 0px;
-        color: silver;
+        color: white;
     }
 }
 
