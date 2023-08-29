@@ -52,7 +52,7 @@ import WeddingMap from '../components/WeddingMap.vue'
 
                     <div class="header"><h2>Guests</h2></div>
                     <p>
-                        Unfortunately, due to space limitations, we simply can't accomodate all<br />
+                        Unfortunately, due to space limitations, we simply can't accommodate all<br />
                         of our lovely guests to bring a guest of their own.<br />
                         Therefore, we regretfully our guests to please not bring a plus one, <br />
                         unless they are specifically named on the invitation.
@@ -60,15 +60,15 @@ import WeddingMap from '../components/WeddingMap.vue'
                     
                     <div class="header"><h2>Accommodation Suggestions</h2></div>
                     <ul>
-                        <li>Rendezvous Hotel - <a href="www.rendezvous-skipton.co.uk/" target="_blank">www.rendezvous-skipton.co.uk/</a></li>
+                        <li>Rendezvous Hotel - <a href="https://www.rendezvous-skipton.co.uk/" target="_blank">www.rendezvous-skipton.co.uk/</a></li>
                         <li>The Coach House (Skipton) - <a href="https://thecoachhouseskipton.com/" target="_blank">thecoachhouseskipton.com/</a></li>
                         <li>The Woolly Sheep (Skipton) - <a href="https://www.woollysheepinn.co.uk/" target="_blank">www.woollysheepinn.co.uk/</a></li>
-                        <li>The Crescent Inn - <a href="www.thecrescentinn.co.uk/" target="_blank">www.thecrescentinn.co.uk/</a></li>
-                        <li>Howgill Lodge - <a href="www.howgill-lodge.co.uk/" target="_blank">www.howgill-lodge.co.uk/</a></li>
-                        <li>The Linton Laithe - <a href="www.lintonlaithe.co.uk/" target="_blank">www.lintonlaithe.co.uk/</a></li>
-                        <li>The Devonshire Arms - <a href="www.thedevonshirearms.co.uk/" target="_blank">www.thedevonshirearms.co.uk/</a></li>
-                        <li>The Devonshire Fell - <a href="www.devonshirefell.co.uk/" target="_blank">www.devonshirefell.co.uk/</a></li>
-                        <li>Bolton Abbey Cottages - <a href="www.boltonabbey.com/stay-with-us/holiday-cottages/" target="_blank">www.boltonabbey.com/stay-with-us/holiday-cottages/</a></li>
+                        <li>The Crescent Inn - <a href="https://www.thecrescentinn.co.uk/" target="_blank">www.thecrescentinn.co.uk/</a></li>
+                        <li>Howgill Lodge - <a href="https://www.howgill-lodge.co.uk/" target="_blank">www.howgill-lodge.co.uk/</a></li>
+                        <li>The Linton Laithe - <a href="https://www.lintonlaithe.co.uk/" target="_blank">www.lintonlaithe.co.uk/</a></li>
+                        <li>The Devonshire Arms - <a href="http://www.thedevonshirearms.co.uk/" target="_blank">www.thedevonshirearms.co.uk/</a></li>
+                        <li>The Devonshire Fell - <a href="https://www.devonshirefell.co.uk/" target="_blank">www.devonshirefell.co.uk/</a></li>
+                        <li>Bolton Abbey Cottages - <a href="https://www.boltonabbey.com/stay-with-us/holiday-cottages/" target="_blank">www.boltonabbey.com/stay-with-us/holiday-cottages/</a></li>
                         <li>The Bailey (Skipton) - <a href="https://thebaileyskipton.co.uk/" target="_blank">thebaileyskipton.co.uk/</a></li>
                         <li>Grassington House - <a href="https://www.grassingtonhouse.co.uk/" target="_blank">www.grassingtonhouse.co.uk/</a></li>
                         <li>The Devonshire (Grassington): <a href="https://www.thedevonshiregrassington.co.uk/" target="_blank">www.thedevonshiregrassington.co.uk/</a></li>
@@ -110,7 +110,7 @@ import WeddingMap from '../components/WeddingMap.vue'
 
                     <div class="header"><h2>Guests</h2></div>
                     <p>
-                        Unfortunately, due to space limitations, we simply can't accomodate all<br />
+                        Unfortunately, due to space limitations, we simply can't accommodate all<br />
                         of our lovely guests to bring a guest of their own.<br />
                         Therefore, we regretfully our guests to please not bring a plus one, <br />
                         unless they are specifically named on the invitation.
@@ -118,15 +118,15 @@ import WeddingMap from '../components/WeddingMap.vue'
                     
                     <div class="header"><h2>Accommodation Suggestions</h2></div>
                     <ul>
-                        <li>Rendezvous Hotel - <a href="www.rendezvous-skipton.co.uk/" target="_blank">www.rendezvous-skipton.co.uk/</a></li>
+                        <li>Rendezvous Hotel - <a href="https://www.rendezvous-skipton.co.uk/" target="_blank">www.rendezvous-skipton.co.uk/</a></li>
                         <li>The Coach House (Skipton) - <a href="https://thecoachhouseskipton.com/" target="_blank">thecoachhouseskipton.com/</a></li>
                         <li>The Woolly Sheep (Skipton) - <a href="https://www.woollysheepinn.co.uk/" target="_blank">www.woollysheepinn.co.uk/</a></li>
-                        <li>The Crescent Inn - <a href="www.thecrescentinn.co.uk/" target="_blank">www.thecrescentinn.co.uk/</a></li>
-                        <li>Howgill Lodge - <a href="www.howgill-lodge.co.uk/" target="_blank">www.howgill-lodge.co.uk/</a></li>
-                        <li>The Linton Laithe - <a href="www.lintonlaithe.co.uk/" target="_blank">www.lintonlaithe.co.uk/</a></li>
-                        <li>The Devonshire Arms - <a href="www.thedevonshirearms.co.uk/" target="_blank">www.thedevonshirearms.co.uk/</a></li>
-                        <li>The Devonshire Fell - <a href="www.devonshirefell.co.uk/" target="_blank">www.devonshirefell.co.uk/</a></li>
-                        <li>Bolton Abbey Cottages - <a href="www.boltonabbey.com/stay-with-us/holiday-cottages/" target="_blank">www.boltonabbey.com/stay-with-us/holiday-cottages/</a></li>
+                        <li>The Crescent Inn - <a href="https://www.thecrescentinn.co.uk/" target="_blank">www.thecrescentinn.co.uk/</a></li>
+                        <li>Howgill Lodge - <a href="https://www.howgill-lodge.co.uk/" target="_blank">www.howgill-lodge.co.uk/</a></li>
+                        <li>The Linton Laithe - <a href="https://www.lintonlaithe.co.uk/" target="_blank">www.lintonlaithe.co.uk/</a></li>
+                        <li>The Devonshire Arms - <a href="http://www.thedevonshirearms.co.uk/" target="_blank">www.thedevonshirearms.co.uk/</a></li>
+                        <li>The Devonshire Fell - <a href="https://www.devonshirefell.co.uk/" target="_blank">www.devonshirefell.co.uk/</a></li>
+                        <li>Bolton Abbey Cottages - <a href="https://www.boltonabbey.com/stay-with-us/holiday-cottages/" target="_blank">www.boltonabbey.com/stay-with-us/holiday-cottages/</a></li>
                         <li>The Bailey (Skipton) - <a href="https://thebaileyskipton.co.uk/" target="_blank">thebaileyskipton.co.uk/</a></li>
                         <li>Grassington House - <a href="https://www.grassingtonhouse.co.uk/" target="_blank">www.grassingtonhouse.co.uk/</a></li>
                         <li>The Devonshire (Grassington): <a href="https://www.thedevonshiregrassington.co.uk/" target="_blank">www.thedevonshiregrassington.co.uk/</a></li>
