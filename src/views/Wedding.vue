@@ -74,6 +74,21 @@ import WeddingMap from '../components/WeddingMap.vue'
                         <li>The Devonshire (Grassington): <a href="https://www.thedevonshiregrassington.co.uk/" target="_blank">www.thedevonshiregrassington.co.uk/</a></li>
                         <li>Salt Pot Cottage - <a href="https://www.instagram.com/saltpot_cottage/?hl=en" target="_blank">www.instagram.com/saltpot_cottage/?hl=en</a></li>
                     </ul>
+
+                    <div class="header"><h2>Gifts</h2></div>
+                    <p>    
+                        The most important thing to us is that you are able to celebrate with us on our wedding day. However, if you wish to give us a gift,
+                        we will gratefull accept a small contribution towards our honeymoon.
+                    </p>
+                    <p>
+                        You can do this by visiting <a href="https://www.trailfinders.com/wishlist" target="_blank">www.trailfinders.com/wishlist</a>
+                        and entering:
+                    </p>
+                    <p>
+                        <b>Surname:</b> Hughes<br />
+                        <b>Reference:</b> 5BM75P
+                    </p>
+                    
                 </div>
             </div>
             <RSVP />
@@ -132,6 +147,20 @@ import WeddingMap from '../components/WeddingMap.vue'
                         <li>The Devonshire (Grassington): <a href="https://www.thedevonshiregrassington.co.uk/" target="_blank">www.thedevonshiregrassington.co.uk/</a></li>
                         <li>Salt Pot Cottage - <a href="https://www.instagram.com/saltpot_cottage/?hl=en" target="_blank">www.instagram.com/saltpot_cottage/?hl=en</a></li>
                     </ul>
+
+                    <div class="header"><h2>Gifts</h2></div>
+                    <p>    
+                        The most important thing to us is that you are able to celebrate with us on our wedding day. However, if you wish to give us a gift,
+                        we will gratefull accept a small contribution towards our honeymoon.
+                    </p>
+                    <p>
+                        You can do this by visiting <a href="https://www.trailfinders.com/wishlist" target="_blank">www.trailfinders.com/wishlist</a>
+                        and entering:
+                    </p>
+                    <p>
+                        <b>Surname:</b> Hughes<br />
+                        <b>Reference:</b> 5BM75P
+                    </p>
                 </div>
             </div>
             <RSVP />
@@ -215,6 +244,7 @@ ul {
     vertical-align: top;
     text-align: start;
     padding-left: 10px;
+    max-width: 600px;
 }
 
 .map {
