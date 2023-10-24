@@ -5,166 +5,34 @@ import WeddingMap from '../components/WeddingMap.vue'
 
 <template>
     <div class="main-page">
-        <div class="hero"></div>
         <div class="spacer"></div>
-        <div class="title"><h1>The wedding of Kimberly & Josh</h1></div>
-        
-        <form v-if="invite === ''" v-on:submit.prevent="submitPassword">
-            <label>Password: </label>
-            <input type="text" v-model="password" />
-            <button class="submit-button" type="submit">Submit</button>
-            <div class="password-error" v-if="passwordError">Sorry, that password is invalid!</div>
-        </form>
-
-        <div v-if="invite === 'day'">
-            <div class="venue-details">
-                <div class="map">
-                    <WeddingMap />
-                </div>
-                <div class="info">
-                    <div class="header"><h2>Venue</h2></div>
-                    <b>Address:</b> The Priests House, Barden Tower, Skipton, BD23 6AS<br />
-                    <b>Date:</b> 21/10/2023<br />
-                    <b>Time:</b> 13:00<br />
-                    <b>Website:</b> <a href="https://thepriestshouse.com/" target="_blank">https://thepriestshouse.com/</a><br />
-                    
-                    <div class="header"><h2>Timings</h2></div>
-                    <p>
-                        <ul>
-                            <li>12:30 - Arrival</li>
-                            <li>13:00 - Guests to chapel</li>
-                            <li>13:30 - Wedding Ceremony</li>
-                            <li>14:00 - Post ceremony drinks</li>
-                            <li>15:30 - Speeches & wedding breakfast</li>
-                            <li>19:00 - Evening guests arrive</li>
-                            <li>19:30 - First dance & cake cutting</li>
-                            <li>23:00 - Last orders & departure</li>
-                        </ul>
-                    </p>
-                    
-                    <div class="header"><h2>Photographs</h2></div>
-                    <p>
-                        Our photographer will be taking photos throughout the wedding and reception.<br />
-                        Please relax and enjoy the moment, and we’ll share the lovely images with everyone<br />
-                        after the celebration. We kindly ask that pictures of us are not shared on social<br />
-                        media until we've had a chance to share our own.
-                    </p>
-
-                    <div class="header"><h2>Guests</h2></div>
-                    <p>
-                        Unfortunately, due to space limitations, we simply can't accommodate all<br />
-                        of our lovely guests to bring a guest of their own.<br />
-                        Therefore, we regretfully our guests to please not bring a plus one, <br />
-                        unless they are specifically named on the invitation.
-                    </p>
-                    
-                    <div class="header"><h2>Accommodation Suggestions</h2></div>
-                    <ul>
-                        <li>Rendezvous Hotel - <a href="https://www.rendezvous-skipton.co.uk/" target="_blank">www.rendezvous-skipton.co.uk/</a></li>
-                        <li>The Coach House (Skipton) - <a href="https://thecoachhouseskipton.com/" target="_blank">thecoachhouseskipton.com/</a></li>
-                        <li>The Woolly Sheep (Skipton) - <a href="https://www.woollysheepinn.co.uk/" target="_blank">www.woollysheepinn.co.uk/</a></li>
-                        <li>The Crescent Inn - <a href="https://www.thecrescentinn.co.uk/" target="_blank">www.thecrescentinn.co.uk/</a></li>
-                        <li>Howgill Lodge - <a href="https://www.howgill-lodge.co.uk/" target="_blank">www.howgill-lodge.co.uk/</a></li>
-                        <li>The Linton Laithe - <a href="https://www.lintonlaithe.co.uk/" target="_blank">www.lintonlaithe.co.uk/</a></li>
-                        <li>The Devonshire Arms - <a href="http://www.thedevonshirearms.co.uk/" target="_blank">www.thedevonshirearms.co.uk/</a></li>
-                        <li>The Devonshire Fell - <a href="https://www.devonshirefell.co.uk/" target="_blank">www.devonshirefell.co.uk/</a></li>
-                        <li>Bolton Abbey Cottages - <a href="https://www.boltonabbey.com/stay-with-us/holiday-cottages/" target="_blank">www.boltonabbey.com/stay-with-us/holiday-cottages/</a></li>
-                        <li>The Bailey (Skipton) - <a href="https://thebaileyskipton.co.uk/" target="_blank">thebaileyskipton.co.uk/</a></li>
-                        <li>Grassington House - <a href="https://www.grassingtonhouse.co.uk/" target="_blank">www.grassingtonhouse.co.uk/</a></li>
-                        <li>The Devonshire (Grassington): <a href="https://www.thedevonshiregrassington.co.uk/" target="_blank">www.thedevonshiregrassington.co.uk/</a></li>
-                        <li>Salt Pot Cottage - <a href="https://www.instagram.com/saltpot_cottage/?hl=en" target="_blank">www.instagram.com/saltpot_cottage/?hl=en</a></li>
-                    </ul>
-
-                    <div class="header"><h2>Gifts</h2></div>
-                    <p>    
-                        The most important thing to us is that you are able to celebrate with us on our wedding day. However, if you wish to give us a gift,
-                        we will gratefull accept a small contribution towards our honeymoon.
-                    </p>
-                    <p>
-                        You can do this by visiting <a href="https://www.trailfinders.com/wishlist" target="_blank">www.trailfinders.com/wishlist</a>
-                        and entering:
-                    </p>
-                    <p>
-                        <b>Surname:</b> Hughes<br />
-                        <b>Reference:</b> 5BM75P
-                    </p>
-                    
-                </div>
+        <article class="content-area">
+            <div class="content">
+                <p>To our wonderful friends and family,</p>
+                <p>Thank you very much for celebrating our special day with us. Your love and support helped make our perfect day possible.</p>
+                <p>
+                    If you have any photos you wish to share with us, we have a Google Drive which you can upload them to, <a href="https://drive.google.com/drive/folders/1ojbP7TzAYZjW_41bCtUS8JyJrCk8-lEO?usp=sharing">which you can access here</a>.<br />
+                    You should also be able to see photographs which other people have taken and shared with us.
+                </p>
+                <p>
+                    Our photographer and videographer are hard at work preparing our memories from our wonderful day.<br />
+                    In the meantime, we kindly request you don't share any photos on social media until we've had a chance to do so.
+                </p>
+                <p>
+                    Finally, we'd like to say a big thank you to everyone for your cards, gifts and contributions towards our honeymoon.<br />
+                    You being at the wedding was the most important thing to us, however if you'd still like to make a contribution to our honeymoon to New Zealand, you can do so at <a href="www.trailfinders.com/wishlist">www.trailfinders.com/wishlist</a> and entering the following:
+                </p>
+                <p>
+                    <b>Surname:</b> Hughes<br />
+                    <b>Reference:</b> 5BM75P
+                </p>
+                <p>Once again, a massive thank you for being there, it means the world to us!</p>
+                <p>
+                    Lots of love,<br />
+                    Mr & Mrs Hughes
+                </p>
             </div>
-            <RSVP />
-        </div>
-
-        <div v-if="invite === 'evening'">
-            <div class="venue-details">
-                <div class="map">
-                    <WeddingMap />
-                </div>
-                <div class="info">
-                    <div class="header"><h2>Venue</h2></div>
-                    <b>Address:</b> The Priests House, Barden Tower, Skipton, BD23 6AS<br />
-                    <b>Date:</b> 21/10/2023<br />
-                    <b>Time:</b> 19:00<br />
-                    <b>Website:</b> <a href="https://thepriestshouse.com/" target="_blank">https://thepriestshouse.com/</a><br />
-                    
-                    <div class="header"><h2>Timings</h2></div>
-                    <p>
-                        <ul>
-                            <li>19:00 - Evening guests arrive</li>
-                            <li>19:30 - First dance & cake cutting</li>
-                            <li>23:00 - Last orders & departure</li>
-                        </ul>
-                    </p>
-                    
-                    <div class="header"><h2>Photographs</h2></div>
-                    <p>
-                        Our photographer will be taking photos throughout the wedding and reception.<br />
-                        Please relax and enjoy the moment, and we’ll share the lovely images with everyone<br />
-                        after the celebration. We kindly ask that pictures of us are not shared on social<br />
-                        media until we've had a chance to share our own.
-                    </p>
-
-                    <div class="header"><h2>Guests</h2></div>
-                    <p>
-                        Unfortunately, due to space limitations, we simply can't accommodate all<br />
-                        of our lovely guests to bring a guest of their own.<br />
-                        Therefore, we regretfully our guests to please not bring a plus one, <br />
-                        unless they are specifically named on the invitation.
-                    </p>
-                    
-                    <div class="header"><h2>Accommodation Suggestions</h2></div>
-                    <ul>
-                        <li>Rendezvous Hotel - <a href="https://www.rendezvous-skipton.co.uk/" target="_blank">www.rendezvous-skipton.co.uk/</a></li>
-                        <li>The Coach House (Skipton) - <a href="https://thecoachhouseskipton.com/" target="_blank">thecoachhouseskipton.com/</a></li>
-                        <li>The Woolly Sheep (Skipton) - <a href="https://www.woollysheepinn.co.uk/" target="_blank">www.woollysheepinn.co.uk/</a></li>
-                        <li>The Crescent Inn - <a href="https://www.thecrescentinn.co.uk/" target="_blank">www.thecrescentinn.co.uk/</a></li>
-                        <li>Howgill Lodge - <a href="https://www.howgill-lodge.co.uk/" target="_blank">www.howgill-lodge.co.uk/</a></li>
-                        <li>The Linton Laithe - <a href="https://www.lintonlaithe.co.uk/" target="_blank">www.lintonlaithe.co.uk/</a></li>
-                        <li>The Devonshire Arms - <a href="http://www.thedevonshirearms.co.uk/" target="_blank">www.thedevonshirearms.co.uk/</a></li>
-                        <li>The Devonshire Fell - <a href="https://www.devonshirefell.co.uk/" target="_blank">www.devonshirefell.co.uk/</a></li>
-                        <li>Bolton Abbey Cottages - <a href="https://www.boltonabbey.com/stay-with-us/holiday-cottages/" target="_blank">www.boltonabbey.com/stay-with-us/holiday-cottages/</a></li>
-                        <li>The Bailey (Skipton) - <a href="https://thebaileyskipton.co.uk/" target="_blank">thebaileyskipton.co.uk/</a></li>
-                        <li>Grassington House - <a href="https://www.grassingtonhouse.co.uk/" target="_blank">www.grassingtonhouse.co.uk/</a></li>
-                        <li>The Devonshire (Grassington): <a href="https://www.thedevonshiregrassington.co.uk/" target="_blank">www.thedevonshiregrassington.co.uk/</a></li>
-                        <li>Salt Pot Cottage - <a href="https://www.instagram.com/saltpot_cottage/?hl=en" target="_blank">www.instagram.com/saltpot_cottage/?hl=en</a></li>
-                    </ul>
-
-                    <div class="header"><h2>Gifts</h2></div>
-                    <p>    
-                        The most important thing to us is that you are able to celebrate with us on our wedding day. However, if you wish to give us a gift,
-                        we will gratefull accept a small contribution towards our honeymoon.
-                    </p>
-                    <p>
-                        You can do this by visiting <a href="https://www.trailfinders.com/wishlist" target="_blank">www.trailfinders.com/wishlist</a>
-                        and entering:
-                    </p>
-                    <p>
-                        <b>Surname:</b> Hughes<br />
-                        <b>Reference:</b> 5BM75P
-                    </p>
-                </div>
-            </div>
-            <RSVP />
-        </div>
+        </article>
     </div>
 </template>
 
@@ -177,35 +45,16 @@ export default {
         for (let i = 0; i < document.styleSheets[0].rules.length; i++) {
             document.styleSheets[0].removeRule(i);
         }
-        document.title = "The wedding of Kim & Josh";
+        document.title = "❤️ Thank You, From Kim & Josh ❤️";
         
         let body = document.getElementsByTagName("body")[0];
-        body.style.backgroundColor = "black";
-        body.style.color = "silver";
+        body.style.backgroundImage = "url('/src/assets/Kim_Josh_Sneak_Peek-20.jpg')"
+        body.style.backgroundSize = "cover";
+        body.style.backgroundRepeat = "no-repeat";
+        body.style.backgroundPosition = "top center";
+        body.style.backgroundAttachment = "fixed";
         body.style.fontFamily = "'Rubik', sans-serif";
         body.style.margin = 0;
-    },
-    data() {
-        return {
-            password: '',
-            invite: '',
-            passwordError: false
-        }
-    },
-    methods: {
-        submitPassword: function() {
-            if (this.password.toUpperCase() === 'JK2023') {
-                this.invite = 'day';
-                let body = document.getElementsByTagName("body")[0];
-                body.style.background = "linear-gradient(0deg, rgb(0, 0, 9) 0%, rgb(200, 60, 9) 100%)";
-            } else if (this.password.toUpperCase() === 'HUGHES2023') {
-                this.invite = 'evening';
-                let body = document.getElementsByTagName("body")[0];
-                body.style.background = "linear-gradient(0deg, rgb(0, 0, 9) 0%, rgb(200, 60, 9) 100%)";
-            } else {
-                this.passwordError = true;
-            }
-        }
     }
 }
 </script>
@@ -214,96 +63,42 @@ export default {
 
 .main-page {
     padding: 0px;
-    color: white;
+    color: black;
     text-align: center;
 }
 
-a {
-    color: green;
-}
-
-ul {
-    list-style-type: circle;
-}
-
-.hero {
-    width: 100%;
-    padding: 0px;
+.content-area {
     position: absolute;
-    height:770px;
-    background-image: url('../assets/IMAG0152.jpg');
-    background-position-x: 40%;
-    background-position-y: 20%;
-    top: 0;
     left: 0;
-}
-
-.info {
-    display: inline-block;
-    height: 100%;
-    vertical-align: top;
-    text-align: start;
-    padding-left: 10px;
-    max-width: 600px;
-}
-
-.map {
-    padding-top:15px;
-    display: inline-block;
-}
-
-.spacer {
     width: 100%;
-    height: 770px;
-}
-
-button {
-    all:revert;
-}
-
-.title {
-    font-size:larger;
-    font-weight: bold;
-}
-
-.header {
-    margin-bottom: 0px !important;
-}
-
-.venue-details {
     height: fit-content;
+    background: white;
+    margin: 0;
+    padding: 0;
+    opacity: 90%;
 }
 
-.submit-button {
-    margin: 10px;
+.spacer{
+    height: 100vh;
+    width: 100%;
 }
 
-.password-error {
-    color: rgb(135, 28, 9);
+.content {
+    display: inline-block;
+    width: 60%;
+    border: 10px double #006600;
+    height: fit-content;
+    border-radius: 50px;
+    margin: 15px;
+    padding: 15px;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 775px) {
-    .hero {
-        width: 100%;
-        padding: 0px;
-        position: absolute;
-        height: 500px;
-        background-image: url('../assets/IMAG0152.jpg');
-        background-size: 1280px 770px;
-        background-position-x: 45%;
-        background-position-y: 20%;
-        top: 0;
-        left: 0;
-    }
-
-    .spacer {
-        width: 100%;
-        height: 500px;
-    }
-
-    .main-page {
-        padding: 0px;
-        color: white;
+    .content {
+        width:80%;
+        overflow-wrap: break-word;
+        font-size: 1.5rem;
     }
 }
 
