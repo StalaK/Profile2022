@@ -1,6 +1,4 @@
 <script setup>
-import RSVP from '../components/RSVP.vue'
-import WeddingMap from '../components/WeddingMap.vue'
 </script>
 
 <template>
@@ -48,7 +46,7 @@ export default {
         document.title = "❤️ Thank You, From Kim & Josh ❤️";
         
         let body = document.getElementsByTagName("body")[0];
-        body.style.backgroundImage = "url('../assets/Kim_Josh_Sneak_Peek-20.jpg')"
+        body.style.backgroundImage = "url('../src/assets/Kim_Josh_Sneak_Peek-20.jpg')"
         body.style.backgroundSize = "cover";
         body.style.backgroundRepeat = "no-repeat";
         body.style.backgroundPosition = "top center";
