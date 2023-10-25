@@ -15,7 +15,7 @@
                 </p>
                 <p>
                     Finally, we'd like to say a big thank you to everyone for your cards, gifts and contributions towards our honeymoon.<br />
-                    You being at the wedding was the most important thing to us, however if you'd still like to make a contribution to our honeymoon to New Zealand, you can do so at <a href="www.trailfinders.com/wishlist">www.trailfinders.com/wishlist</a> and entering the following:
+                    You being at the wedding was the most important thing to us, however if you'd still like to make a contribution to our honeymoon to New Zealand, you can do so at <a href="https://www.trailfinders.com/wishlist">www.trailfinders.com/wishlist</a> and entering the following:
                 </p>
                 <p>
                     <b>Surname:</b> Hughes<br />
