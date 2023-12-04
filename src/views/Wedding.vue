@@ -14,14 +14,8 @@
                     In the meantime, we kindly request you don't share any photos on social media until we've had a chance to do so.
                 </p>
                 <p>
-                    Finally, we'd like to say a big thank you to everyone for your cards, gifts and contributions towards our honeymoon.<br />
-                    You being at the wedding was the most important thing to us, however if you'd still like to make a contribution to our honeymoon to New Zealand, you can do so at <a href="https://www.trailfinders.com/wishlist">www.trailfinders.com/wishlist</a> and entering the following:
+                    Finally, we'd like to say a big thank you to everyone for your cards, gifts and contributions towards our honeymoon. Most importantly, a massive thank you for being there, it means the world to us!<br />
                 </p>
-                <p>
-                    <b>Surname:</b> Hughes<br />
-                    <b>Reference:</b> 5BM75P
-                </p>
-                <p>Once again, a massive thank you for being there, it means the world to us!</p>
                 <p>
                     Lots of love,<br />
                     Mr & Mrs Hughes

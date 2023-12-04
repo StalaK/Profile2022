@@ -143,12 +143,35 @@ gsap.registerPlugin(Flip);
                     browse the wild and wacky things available.
                 </p>
                 <p>
-                    <a href="https://roulettesy.netlify.app/" target="blank"><h3>Visit Roulettesy!</h3></a>
+                    <a href="https://roulettesy.joshh.co.uk/" target="blank"><h3>Visit Roulettesy!</h3></a>
                 </p>
                 <h2>Technologies Used:</h2>
                 <ul>
                     <li>Vue</li>
                 </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h1>NiceSON</h1>
+            <div>
+                <h2>Make your JSON look nice!</h2>
+                <p>
+                    A simple command line app which prettifies your unformatted JSON strings. Has the ability to write the prettified
+                    JSON directly to your clipboard, output it to the console, or output it as a new text file.
+                </p>
+                <p>
+                    NiceSON can be downloaded as installed as a Dotnet tool. <a href="https://www.nuget.org/packages/NiceSon/">View NiceSON on Nuget.org</a>.
+                </p>
+                <h2>Technologies Used:</h2>
+                <ul>
+                    <li>C#</li>
+                </ul>
+                <div class="github-link">
+                    <a href="https://github.com/StalaK/NiceSon" target="blank">
+                        <span class="github-link"><h3 class="github-text">View NiceSON on Github</h3></span>
+                        <span class="github-link"><img src="../assets/github.png" alt="View NiceSON on Github" /></span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>

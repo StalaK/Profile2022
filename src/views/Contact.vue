@@ -3,8 +3,7 @@
         <ul>
             <li><a href="https://github.com/StalaK" target="_blank">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/josh-hughes-51943987/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://twitter.com/Wow_Josh" target="_blank">Twitter</a></li>
-          <li><a href="mailto:HughesJoshD@gmail.com">Email</a></li>
+            <li><a href="mailto:HughesJoshD@gmail.com">Email</a></li>
         </ul>
     </div>
 </template>
