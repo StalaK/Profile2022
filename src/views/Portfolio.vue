@@ -19,7 +19,9 @@ gsap.registerPlugin(Flip);
                 <p>
                     No projects related to my employments, past or present, will be displayed on this website
                 </p>
-
+                <p>
+                    You can view the previous profile layout by <a href="http://profile2020.joshh.co.uk/" target="_blank">clicking here</a>.
+                </p>
                 <h2>Technologies Used:</h2>
                 <ul>
                     <li>VueJS</li>
