@@ -176,6 +176,31 @@ gsap.registerPlugin(Flip);
                 </div>
             </div>
         </div>
+        <div class="card">
+            <h1>Leeds Knights Ticker</h1>
+            <div>
+                <p>
+                    Having recently gotten into ice hockey, I found myself refreshing the NIHL website to see the latest of what was going on
+                    in specific hockey games. With ice hockey being such a fast paced sport, I'd often find myself refreshing the game page
+                    and seeing that I'd missed out a whole series of events.
+                </p>
+                <p>
+                    I decided to write an app which posts these events to Bluesky, what way I can receive game alerts in real time instead of
+                    sitting and refreshing webpages.
+                </p>
+
+                <h2>Technologies Used:</h2>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Typescript</li>
+                    <li>Docker</li>
+                    <li>Bash</li>
+                </ul>    
+                <div >
+                    <a href="https://bsky.app/profile/leedsknightsticker.bsky.social" target="blank">Unofficial Leeds Knights Ticker on Bluesky</a>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
